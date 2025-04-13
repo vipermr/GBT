@@ -17,17 +17,10 @@ module.exports = {
 	onStart: async function ({ message }) {
 		const authorName = " ⩸_ 𝙽𝙸 𝚂 𝙰𝙽 _⩸ ";
 		const ownAge = "『 ⩸_ 20 _⩸ 』";
-		const messenger = "m.me/61567840496026";
-		const authorFB = "//www.facebook.com/profile.php?id=61567840496026";
+		const messenger = " //m.me/shamsuddin.munna.2025";
+		const authorFB = " //www.facebook.com/profile.php?id=61567840496026";
 		const authorNumber = "_017××××××98";
 		const Status = "⩸__ Rls Whit Faria __⩸";
-		const urls = [
-"https://i.imgur.com/hDTLa1z.jpeg",
-"https://i.imgur.com/y8XCi44.mp4",
-"https://i.imgur.com/gTQclKR.mp4",
-"https://i.imgur.com/gTQclKR.mp4"
-];
-		const link = urls[Math.floor(Math.random() * urls.length)];
 		const now = moment().tz('Asia/Jakarta');
 		const date = now.format('MMMM Do YYYY');
 		const time = now.format('h:mm:ss A');
@@ -39,7 +32,7 @@ module.exports = {
 		const uptimeString = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds`;
 
 		message.reply({
-			body: `💫《 ⩸__𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧__⩸ 》💫
+			body: `💫《 𝐁𝐨𝐭 𝐀𝐧𝐝 𝐎𝐰𝐧𝐞𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 》💫
 \🤖彡𝐵𝑜𝑡 𝑁𝑎𝑚𝑒 : ⩸__${global.GoatBot.config.nickNameBot}__⩸
 \👾彡𝐵𝑜𝑡 𝑆𝑦𝑠𝑡𝑒𝑚 𝑃𝑟𝑒𝑓𝑖𝑥 : ${global.GoatBot.config.prefix}
 \💙彡𝑂𝑤𝑛𝑒𝑟 𝑁𝑎𝑚𝑒 : ${authorName}
@@ -54,7 +47,6 @@ module.exports = {
     𝑻𝒈: https://t.me/nisan_editz
     𝑰𝒏𝒔𝒕𝒂: https://www.instagram.com/im_editz_x2.0?
 \===============`,
-			attachment: await global.utils.getStreamFromURL(link)
 		});
 	},
 	onChat: async function ({ event, message, getLang }) {
