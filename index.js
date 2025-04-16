@@ -21,7 +21,6 @@
 // Force production mode if not set
 process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 console.log(`Running in ${process.env.NODE_ENV} mode`);
-q
 
 const { spawn } = require("child_process");
 const log = require("./logger/log.js");
