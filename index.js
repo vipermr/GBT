@@ -41,3 +41,15 @@ function startProject() {
 }
 
 startProject();
+
+
+// This is the REQUIRED port for Render
+const PORT = process.env.PORT || 5000;
+
+app.get('/', (req, res) => {
+  res.send('Render is working!');
+});
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
