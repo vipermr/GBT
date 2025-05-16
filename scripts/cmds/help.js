@@ -35,7 +35,7 @@ module.exports = {
 
 
 
-    name: "help3",
+    name: "help",
 
 
 
