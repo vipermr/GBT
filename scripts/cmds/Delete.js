@@ -23,10 +23,10 @@ role: 2,
     fs.unlink(filePath, (err) => {
       if (err) {
         console.error(err);
-        api.sendMessage(`😈𝚆𝙷𝙾 𝙰𝚁𝙴 𝚈𝙾𝚄 𝚈𝙾𝚄 𝙰𝚁𝙴 𝚃𝚈𝙿𝙴 𝚆𝚁𝙾𝙽𝙶${fileName}.𝙵𝙸𝙻𝙴 𝙽𝙰𝙼𝙴`, event.threadID);
+        api.sendMessage(`Ki vulval type koros😾 ${fileName}. Thik koira lekh😼`, event.threadID);
         return;
       }
-      api.sendMessage(`✅ 𝙽𝙸 𝚂 𝙰𝙽 𝚈𝙾𝚄𝚁 𝚃𝙷𝙴 𝙲𝙼𝙳 𝙷𝙰𝚂 𝙱𝙴𝙴𝙽 𝙳𝙴𝙻𝙴𝚃𝙴𝚂 ➪ ( ${fileName} ) 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈`, event.threadID);
+      api.sendMessage(`✅ Hey Pro 𝚈𝙾𝚄𝚁  𝙲𝙼𝙳  ➪ ( ${fileName} )  Deleted 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈`, event.threadID);
     });
   }
 };
