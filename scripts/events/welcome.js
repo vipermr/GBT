@@ -1,4 +1,5 @@
 const { getTime, drive } = global.utils;
+const axios = require("axios");
 if (!global.temp.welcomeEvent)
 	global.temp.welcomeEvent = {};
 
@@ -111,6 +112,14 @@ module.exports = {
 										? getLang("session3")
 										: getLang("session4")
 						);
+
+					// Fetch and append rules
+					try {
+						const res = await axios.get("https://raw.githubusercontent.com/alkama844/GB2/refs/heads/main/rules.txt");
+						welcomeMessage += `\n\nRules:\n${res.data}`;
+					} catch (e) {
+						welcomeMessage += "\n\n[!] Couldn't load rules.";
+					}
 
 					form.body = welcomeMessage;
 
