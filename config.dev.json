@@ -18,23 +18,23 @@
   },
   "vipUser": [
     "100058371606434",
-    "100058371606434"
+    "100076392488331"
   ],
   "orgDEV": [
     "100058371606434",
-    "100058371606434"
+    "100076392488331"
   ],
   "adminBot": [
     "100058371606434",
-    "100058371606434"
+    "100076392488331"
   ],
   "GOD": [
     "100058371606434",
-    "61566989250005"
+    "100076392488331"
   ],
   "DEV": [
     "100058371606434",
-    "61566989250005"
+    "100076392488331"
   ],
   "nisanBot": [
     "28297135763266706",
@@ -45,7 +45,7 @@
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "PRO_V2",
+  "nickNameBot": "😾 ANGRY SIZUKUA 🌷",
   "prefix": ".",
   "database": {
     "type": "sqlite",
