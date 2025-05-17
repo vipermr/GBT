@@ -32,13 +32,13 @@ module.exports = {
     const prefix = global.utils.getPrefix(threadID);
     const dataAddedParticipants = event.logMessageData.addedParticipants;
 
-    // If the bot was added
+/*    // If the bot was added
     if (dataAddedParticipants.some((item) => item.userFbId == api.getCurrentUserID())) {
       if (nickNameBot)
         api.changeNickname("😾 ANGRY CAT 😼", threadID, api.getCurrentUserID());
       return;
     }
-
+*/
     // React to join message
     api.setMessageReaction("👋", event.messageID, () => {}, true);
 
