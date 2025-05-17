@@ -62,7 +62,7 @@ module.exports = {
 
       // Set bot nickname
       const botID = api.getCurrentUserID();
-      const nickNameBot = "😼 ANGRY CAT 😾";
+      const nickNameBot = "😼 ANGRY SIZUKUA 😾";
       try {
         await api.changeNickname(nickNameBot, groupID, botID);
       } catch (e) {
