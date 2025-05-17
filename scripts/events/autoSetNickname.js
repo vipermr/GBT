@@ -83,7 +83,7 @@ module.exports = {
 
       welcomeMessage = welcomeMessage
      //   .replace(/\{userName\}|\{userNameTag\}/g, userName.join(", "))
-        .replace(/\{userName\}|\{userNameTag\}/g)
+        .replace(/\{userName\}|/g, userName.join(", "))
         .replace(/\{boxName\}|\{threadName\}/g, threadName)
         .replace(
           /\{multiple\}/g,
