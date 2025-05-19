@@ -19,8 +19,8 @@
     npm Start
     ```
 
-##node env set 
-    ```
+3.  SET NODE ENV:
+    ```bash
     NODE_ENV=production
     ```
 
