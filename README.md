@@ -2,6 +2,55 @@
 <h1 align="center"><img src="./dashboard/images/logo-non-bg.png" width="22px"> Goat Bot V2- Chatbot Messenger</h1>
 
 
+# GBTT
+
+A brief and engaging description of the GBTT project goes here. Highlight its main purpose, key features, and what makes it unique.
+
+## Getting Started
+
+These instructions will guide you on how to get a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+List any software dependencies that need to be installed before running the project. For example:
+
+* Node.js (version >= 16)
+* npm (version >= 8) or yarn (version >= 1.22)
+* Git
+
+### Installation
+
+Provide step-by-step instructions on how to install the project.
+
+1.  Clone the repository:
+    ```bash
+    git clone <repository_url>
+    ```
+    *(Replace `<repository_url>` with the actual URL of your GBTT repository)*
+
+2.  Navigate to the project directory:
+    ```bash
+    cd gbtt
+    ```
+
+3.  Install the dependencies using npm or yarn:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+
+## Environment Configuration
+
+To run GBTT in a production-like environment, ensure you set the `NODE_ENV` environment variable. You can do this directly in your terminal or by creating a `.env` file in the root of your project.
+
+### Setting `NODE_ENV`
+
+**Directly in the terminal (example for Linux/macOS):**
+
+```bash
+export NODE_ENV=production
+
 ## Introduction
 
 #### Join us in [Messenger Group](https://m.me/j/AbZ6Bj-uS3npg7di/)🍪
