@@ -3,25 +3,25 @@
 
 
 
-1.  Clone the repository:
+1.  SET THE LINK OF RENDER:
     ```bash
-    git clone <repository_url>
+    https://pro-v2.onrender.com
     ```
     *(Replace `<repository_url>` with the actual URL of your GBTT repository)*
 
-2.  Navigate to the project directory:
-    ```bash
-    cd gbtt
-    ```
-
-3.  Install the dependencies using npm or yarn:
+2. Build Command :
     ```bash
     npm install
     ```
 
-starting server 😧 ``` bash
-    npm install
+3.  Start Server:
+    ```bash
+    npm Start
+    ```
 
+##node env set 
+    ```
+    NODE_ENV=production
     ```
 
  
